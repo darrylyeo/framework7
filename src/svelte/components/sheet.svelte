@@ -156,7 +156,7 @@
 <div class={classes} bind:this={el} {...restProps($$restProps)}>
   <slot name="fixed" />
   <div class="sheet-modal-inner" bind:this={innerEl}>
-    <slot />
+    <slot sheet={f7Sheet} />
     <slot name="static" />
   </div>
 </div>
